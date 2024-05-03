@@ -10,11 +10,11 @@ body{
 }
 
 #header{
-    height: 120 px;
+    height: 150px;
     width: 100%;
     background: white;
-    border-bottom: 1px solid #ccc;
-    border-top: 5px solid #61dafb ;
+    border-bottom: 2px solid #ccc;
+    border-top: 7px solid #61dafb ;
 
 
 }
@@ -33,21 +33,34 @@ body{
     width: 30%;
     font-size: 30%;
     float: left;
-    margin-top: 30px
+    margin-top: 27px
 }
 
 #logo img {
     display: block;
     float: left;
-    height:  60px;
-    margin-top: -10px;
+    height:  110px;
+    margin-top: -9px;
     margin-right: -10px;
+    animation: girar infinite 30s linear;
+
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
 }
 
 #brand{
     display: block;
-    margin: 0px;
+    margin: 30px;
     float: left;
+    font-size: 25px;
 }
 
 #menu{
