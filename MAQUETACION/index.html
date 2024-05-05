@@ -6,6 +6,7 @@
     <title>Maquetacion para Frameworks</title>
     <!-- HOJA DE ESTILOS-->
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
+   
 </head>
 <body>
     <header id="header">
@@ -51,7 +52,39 @@
             <div class="center">
                 <section id="content">
                     <h2>Ultimas Updates</h2>
-                        <!-- Listado de actulziacions -->
+                    <script type="text/JavaScript">
+                        window.addEventListener("load", function(event){
+                            var template = document.getElementById("article-template");
+                            
+                            var articles = document.getElementById("articles") 
+                             for(var i = 1; i <= 5; i++){
+                                var clonado = template.cloneNode(true);
+                                var h2 = clonado.getElementsByTagName("h2")[0];
+                                console.log(h2);
+                                h2.innerHTML = h2.textContent + ' ' + i;
+                                articles.appendChild(clonado)
+                            }
+                        });
+                       
+                
+                    </script>
+                
+                    <!-- Listado de actulziacions -->
+                   <div id="articles">
+                    <article class="article-itm" id="article-template">
+                        <div class="imagen-wrap">
+                            <img src="https://www.semana.com/resizer/FoMQoVccuVtUBm3VjyI1Rsnx8uM=/1280x720/smart/filters:format(jpg):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/semana/ZYCBBET2KFGI3GQERGAFAJJOIY.jpg" alt="Paisaje"/>
+                        </div>
+
+                        <h2>Update de prueba</h2>
+                        <span class="date">
+                            Hace 7 Horas
+                        </span>
+                        <a href="x"> Leer Mas</a>
+
+                     </article>
+                     <!-- Agregar actulizaciones JS -->
+                    </div> 
                 </section>
             <aside id="sidebar">
                 <div id="nav-blog" class="sidebar-item">
