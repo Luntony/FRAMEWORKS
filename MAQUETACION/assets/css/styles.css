@@ -10,10 +10,10 @@ body{
 }
 
 #header{
-    height: 150px;
+    height: 141px;
     width: 100%;
     background: white;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 4px solid #ccc;
     border-top: 7px solid #61dafb ;
 
 
@@ -96,7 +96,7 @@ body{
 }
 
 #slider{
-    height: 291px;
+    height: 325px;
     line-height: 32px;
     color: azure;
     text-shadow: 0px 0px 5px #444;
@@ -106,7 +106,7 @@ body{
 }
 
 #slider h1{
-    margin-top: 4cm;
+    margin-top: 0cm;
     padding: 0px;
     text-align: center;
     padding-top: 125px;
@@ -142,7 +142,7 @@ body{
 }
 
 #slider.slider-small h1{
-    margin-top: 4cm;
+    margin-top: 3.8cm;
     padding: 0px;
     padding-top: 65px;
 }
