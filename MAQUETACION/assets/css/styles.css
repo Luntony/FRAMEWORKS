@@ -199,11 +199,11 @@ body{
 
 }
 
-.btn-succes{
+.btn-success{
     background: green;
 }
 
-.btn-succes:hover{
+.btn-success:hover{
     background: black;
 }
 
