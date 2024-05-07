@@ -354,7 +354,15 @@ textarea{
 }
 
 /*Responsive  */
-
+@media(max-width: 1197px){
+    #logo img {
+        display: block;
+        float: left;
+        height: 76px;
+        margin-top: -9px;
+        margin-right: -10px;
+    }
+}
 @media(max-width: 1596px){
     .center{
         width: 90%;
@@ -371,6 +379,7 @@ textarea{
     }
 }
 
+
 @media(max-width: 1108px){
     .center{
         width: 93%;
@@ -381,11 +390,11 @@ textarea{
 }
 
 @media(max-width: 1086px){
-    #logo{
-        float:none;
-        width: 304px;
-        margin: -94px auto;
-        margin-top: 100px;
+    #logo {
+        float: none;
+        width: 230px;
+        margin: -122px auto;
+        margin-top: 40px;
     }
 
 
@@ -425,14 +434,16 @@ textarea{
 @media(max-width: 450){
 
     #header{
-    min-height: 130px;
+    min-height: 160px;
     overflow: hidden;
     }
-
-    #menu,
-    #menu ul{
-        width: auto;
-        line-height: 7px;
+    #menu, #menu ul {
+        clear: both;
+        float: none;
+        width: 108%;
+        margin: 0px;
+        padding: 0px;
+        line-height: 14px;
     }
 
     #menu,
